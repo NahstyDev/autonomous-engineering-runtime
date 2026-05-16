@@ -1,28 +1,45 @@
 # Autonomous Engineering Runtime
 
-Deterministic autonomous agent runtime and orchestration framework built for replay-safe execution, lifecycle supervision, workflow scheduling, concurrency management, and recoverable AI systems.
+Experimental autonomous execution runtime and orchestration framework focused on deterministic workflow coordination, lifecycle supervision, replay-oriented execution tracking, and recoverable AI system infrastructure.
+
+This project explores the systems engineering side of long-running autonomous agents, with emphasis on orchestration safety, runtime coordination, concurrency management, and operational execution behavior.
+
+---
+
+# Project Context
+
+This project was developed using AI-assisted engineering workflows. AI tools were used to accelerate implementation, iteration, and architectural exploration, while system direction, runtime decomposition, debugging, orchestration design decisions, and subsystem integration were guided manually.
+
+The repository is intended primarily as:
+
+- a systems engineering exploration project
+- a runtime architecture learning project
+- n experimentation environment for autonomous execution infrastructure
+- a platform for understanding orchestration, concurrency, recovery, and lifecycle management concepts
+
+Rather than positioning this project as a production-ready autonomous AI system, the focus is on exploring the infrastructure patterns required to support reliable long-running execution systems.
 
 ---
 
 ## Overview
 
-Autonomous Engineering Runtime is a systems-oriented execution framework designed to support long-running autonomous AI workflows with deterministic orchestration, explicit lifecycle management, replay-safe execution tracking, and fault-aware runtime coordination.
+Autonomous Engineering Runtime is a systems-oriented execution framework designed to experiment with deterministic orchestration, explicit lifecycle management, replay-safe execution tracking, async workflow scheduling, and fault-aware runtime coordination.
 
-Unlike traditional AI frameworks focused primarily on prompts or API wrappers, this project focuses on the runtime infrastructure required to operate autonomous systems reliably over extended execution cycles.
+Unlike many AI frameworks centered primarily around prompts or model wrappers, this project focuses more heavily on the runtime infrastructure layer behind autonomous execution systems.
 
-The architecture emphasizes:
+Key architectural areas explored include:
 
 - Deterministic execution boundaries
-- Explicit lifecycle state machines
+- Explicit runtime lifecycle management
 - Replay-oriented execution tracking
 - Async orchestration infrastructure
-- Runtime supervision
 - Workflow scheduling
 - Concurrency coordination
 - Event-driven subsystem communication
+- Runtime supervision
 - Recoverable execution pipelines
 
-The project is structured more like an operating runtime for autonomous systems than a traditional chatbot framework.
+The architecture is intentionally experimental and designed as a learning-oriented systems project rather than a production deployment framework.
 
 ---
 
@@ -284,19 +301,13 @@ print(result.success)
 
 # Current Status
 
-## Completed
+This repository is currently:
 
-- Runtime bootstrap system
-- Lifecycle supervision
-- Runtime state management
-- Dependency injection container
-- Service registry
-- Async concurrency infrastructure
-- Event bus
-- Worker queue
-- Workflow scheduler
-- Orchestration engine
-- Integration testing infrastructure
+- experimental
+- learning-oriented
+- architecture-focused
+- partially implemented
+- under active iteration
 
 ---
 
@@ -364,25 +375,43 @@ docker run autonomous-runtime
 
 # Design Philosophy
 
-The runtime is designed around several core principles:
+The runtime was built to explore several engineering questions:
 
-- Explicit lifecycle transitions
-- Deterministic execution flow
-- Replay-oriented architecture
-- No implicit global mutable state
-- Operational safety over convenience
-- Fault-aware runtime supervision
-- Infrastructure-first autonomous execution
+How should long-running autonomous workflows be supervised safely?
+How can execution cycles become replayable and auditable?
+What runtime abstractions are useful for orchestration systems?
+How should async execution coordination behave under failure conditions?
+What kinds of lifecycle boundaries improve operational predictability?
+How can workflow systems coordinate concurrency safely?
+
+The project emphasizes infrastructure-oriented runtime behavior over conversational AI features.
 
 ---
 
-# Why This Project Exists
+# What I Learned Building This
 
-Most AI agent frameworks focus on prompts, wrappers, or orchestration convenience layers.
+This project became a deep exploration into:
 
-This project focuses on the runtime infrastructure required to operate autonomous systems reliably over long-running execution cycles.
+async execution coordination
+workflow orchestration
+event-driven runtime communication
+lifecycle supervision
+replay-oriented execution models
+dependency injection systems
+concurrency management
+execution state tracking
+systems decomposition
+runtime architecture tradeoffs
 
-The goal is to explore what production-oriented autonomous execution infrastructure might look like when built with deterministic lifecycle control, replayability, orchestration safety, and runtime supervision as first-class architectural concerns.
+It also exposed gaps in:
+
+backend infrastructure knowledge
+operational deployment concerns
+database integration patterns
+networking fundamentals
+async runtime internals
+
+Those areas are actively being improved through smaller backend systems and infrastructure-focused projects.
 
 ---
 
