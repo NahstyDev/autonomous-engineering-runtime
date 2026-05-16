@@ -14,7 +14,7 @@ The repository is intended primarily as:
 
 - a systems engineering exploration project
 - a runtime architecture learning project
-- n experimentation environment for autonomous execution infrastructure
+- an experimentation environment for autonomous execution infrastructure
 - a platform for understanding orchestration, concurrency, recovery, and lifecycle management concepts
 
 Rather than positioning this project as a production-ready autonomous AI system, the focus is on exploring the infrastructure patterns required to support reliable long-running execution systems.
